@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Styling Properties</title>
+    <style>
+        /* General styles for the body */
+        body {
+            background-color: #f9f9f9;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Center the card on the page */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Styles for the card */
+        .card {
+            background-color: #e78686;
+            border: 1px solid #458ae4;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 15px;
+            width: 300px;
+            text-align: left;
+        }
+
+        /* Heading inside the card */
+        .card h2 {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: 0 0 10px;
+            color: #4CAF50;
+        }
+
+        /* Paragraph inside the card */
+        .card p {
+            font-size: 1em;
+            line-height: 1.6;
+            text-align: justify;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h2>Card Title</h2>
+            <p>
+                This is a simple card component designed to demonstrate basic styling properties. 
+                It includes padding inside the card, a light background color, and a subtle border for a clean look.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

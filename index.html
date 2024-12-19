@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline, Internal, and External CSS</title>
+
+    <!-- Internal CSS -->
+    <style>
+        h1 {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: #333;
+        }
+
+        .highlight {
+            font-size: 1.2em;
+            padding: 10px;
+            background-color: #f7f7f7;
+        }
+
+        p {
+            line-height: 1.5;
+            margin: 15px;
+            color: #666;
+        }
+    </style>
+
+    <!-- Link External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Inline CSS -->
+    <h1 style="color: #4CAF50;">Welcome to CSS Styling!</h1>
+
+    <p class="highlight">This paragraph is styled with a class using internal CSS.</p>
+
+    <p>This paragraph is styled using internal CSS with adjusted line height and color.</p>
+
+    <a href="https://www.google.com">Google.com</a>
+</body>
+</html>

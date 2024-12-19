@@ -1,0 +1,18 @@
+/* External CSS: Change the background color */
+body {
+    background-color: #f0f8ff;
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style links with hover effects */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
